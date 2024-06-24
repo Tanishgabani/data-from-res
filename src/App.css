@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #0b253d;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main_box_trading {
+  background-color: #021629;
+  height: 200px;
+  width: 1480px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 18px;
+}
+
+.main_field_trading {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 22%;
+  margin-right: 15px;
+}
+
+.fields_value_trading {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.btn {
+  /* text-transform: none; */
+  color: white;
+  background-color: #0b253d;
+  height: 30px;
+  width: 120px;
+}
+
+.main_btn {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 20px;
+}
